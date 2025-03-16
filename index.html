@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage with Form, Table, and List</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List (Roman Numerals)</h2>
+    <ol type="I">
+        <li>Introduction</li>
+        <li>Chapter One</li>
+        <li>Chapter Two</li>
+        <li>Conclusion</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>Beautiful Scenery</h2>
+    <img src="https://images.pexels.com/photos/1234567/pexels-photo-1234567.jpe" alt="A Photo of a forest from Pexels" width="400">
+
+    <!-- Table with Contacts -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Lakeesha Nova</td>
+            <td>254 Street, KE</td>
+            <td>+2547654504</td>
+            <td>novalakeesha@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Lucas Elba</td>
+            <td>456 Avenue, ZA</td>
+            <td>+1278754443</td>
+            <td>elbaLucas@outlook.com</td>
+        </tr>
+        <tr>
+            <td>Elsy Anora</td>
+            <td>345 Kampala, UG</td>
+            <td>+3458973213</td>
+            <td>anoraelsy@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Elenor Zoey</td>
+            <td>101 Road, RW</td>
+            <td>+1223344556</td>
+            <td>zoeyeleanor@yahoo.com</td>
+        </tr>
+        <tr>
+            <td>Lenin Taye</td>
+            <td>202 Lane, TZ</td>
+            <td>+1334455667</td>
+            <td>tayelenin@outlook.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form>
+        <!-- Name Field -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter a strong password" required><br><br>
+
+        <!-- Date Field -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Dropdown -->
+        <label for="country">Select Country:</label>
+        <select id="country" name="country" required>
+            <option value="">--Select--</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Zambia">Zambia</option>
+            <option value="Zimbabwe">Zimbabwe</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="Rwanda">Rwanda</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <!-- Checkboxes -->
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="sports" name="hobbies" value="Sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="hobbies" value="Music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="travel" name="hobbies" value="Travel">
+        <label for="travel">Travel</label>
+        <input type="checkbox" id="reading" name="hobbies" value="Reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="athletic" name="hobbies" value="Athletic">
+        <label for="athletic">Athletic</label>
+        
+
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
